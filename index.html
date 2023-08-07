@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h2>Rook, Paper, Scissors</h2>
+    </header>
+
+
+    
+
+
+    <section class="game-area">
+        <div>
+            <p>Make a choice:</p>
+            <button aria-label="Rock" data-choice="0" class="control">Rock</button>
+            <button aria-label="Peper" data-choice="1" class="control">Paper</button>
+            <button aria-label="Scissors" data-choice="2" class="control">Scissors</button>
+        </div>
+
+        <div id="message"></div>
+
+        <div class="container">
+        <div class="player">
+            <h3 class="scores">Your score: <span id="player-score">0</span></h3>
+            <img id="player-image" src="images/rock-paper-scissors.png" alt="Rock Paper Scissors" >
+        </div>
+        <div class="computer">
+            <h3 class="scores">Computer score: <span id="computer-score">0</span></h3>
+            <img id="computer-image" src="images/rock-paper-scissors.png" alt="Rock Paper Scissors" >
+        </div>
+        </div>
+        
+    </section>
+
+
+
+
+    <footer>
+        <h3>Rules</h3>
+        <p>Scissors cut paper | Paper covers Rock | Rock bluts Scissors</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

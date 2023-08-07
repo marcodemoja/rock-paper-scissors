@@ -1,0 +1,87 @@
+@import url();
+
+/* Mane veiw setup */
+*{
+    padding: 0;
+}
+
+
+body {
+    min-height: 100vh;
+    position: relative;   
+    font-family: serif;
+    margin: 0;
+}
+
+/* Header */
+
+header {
+    text-align: center;
+    height: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+/* Game area */
+
+.game-area {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    text-align: center;
+}
+
+.control {
+    display: inline-block;
+    margin: 20px 2px;
+    width: 80px;
+    height: 40px;
+}
+
+#masages {
+    height: 20px;
+}
+
+.player {
+    background-color: lightblue;
+    width: 45%;
+}
+
+#player-image {
+    width: 75%;
+}
+
+
+.computer {
+    background-color: lightcoral;
+    /* float: right; */
+    width: 45%;
+}
+
+#computer-image {
+    width: 75%;
+}
+
+/* Footer */
+
+footer {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    min-height: 80px;
+    /* padding-top: 5px; */
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+}
+
+
+/* To be continios */
